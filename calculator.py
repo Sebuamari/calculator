@@ -16,3 +16,15 @@ class Calculator:
         res = a + b
         cls.update_last_result(res)
         return res
+
+    @classmethod
+    def divide(cls, a, b):
+        res = a // b
+        cls.update_last_result(res)
+        return res
+
+    @classmethod
+    def subtract(cls, a, b):
+        res = a - b
+        cls.update_last_result(res)
+        return res
