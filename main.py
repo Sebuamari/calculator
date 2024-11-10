@@ -6,6 +6,8 @@ try:
     calculator = Calculator()
     print(f"{input_a} + {input_b} = {calculator.add(input_a, input_b)}")
     print(f"{input_a} * {input_b} = {calculator.multiply(input_a, input_b)}")
+    print(f"{input_a} - {input_b} = {calculator.subtract(input_a, input_b)}")
+    print(f"{input_a} / {input_b} = {calculator.divide(input_a, input_b)}")
 except ValueError:
     print("Invalid input. Input must be number!")
 except Exception as e:
